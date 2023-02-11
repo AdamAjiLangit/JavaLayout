@@ -17,8 +17,7 @@
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="70px"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="202dp" />
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:inputType= "number"
@@ -43,8 +42,7 @@
         android:textAlignment="4"
         android:textSize="50px"
         app:layout_constraintTop_toBottomOf="@+id/EdNominalUang"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="83dp" />
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/btnSubmit"
